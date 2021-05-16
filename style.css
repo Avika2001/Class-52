@@ -1,0 +1,61 @@
+h1{
+    color:rgb(170, 7, 170);
+}
+.header *{
+    border:solid;
+    margin:30px;
+}
+.header{
+    background-color:lightblue;
+    display:flex;
+    justify-content:space-between;
+}  
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.item{
+    position:relative;
+}
+.item h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover h3{
+    opacity:2;
+}
+.item:hover img{
+    opacity:0.25;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+
+h3{
+    text-align:center;   
+} 
+
+body{
+  background-color:#808080
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:red;
+}
+
+h2{
+    margin: 40px;
+    padding: 10px;
+    text-align:center;
+    color:rgba(0, 83, 151, 0.705)
+}
